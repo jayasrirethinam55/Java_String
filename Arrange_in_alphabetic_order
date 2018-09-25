@@ -1,6 +1,6 @@
 package Name;
 
-public class Longest_word_in_string {
+public class Alphabetics {
 
 	public static void main(String[] args) {
 
