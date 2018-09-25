@@ -1,0 +1,19 @@
+package Name;
+
+public class Count_wordin_string {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Java is a programming languages";
+		String [] arr=s.split(" ");
+		System.out.println("count = " + arr.length);
+		
+		
+		
+	}
+
+}
+
+
+Result:
+Total count is 5
