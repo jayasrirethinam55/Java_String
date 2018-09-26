@@ -1,0 +1,30 @@
+package Name;
+
+public class Vowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="he is going to attend on interview";
+String[] arr = s.split(" ");
+String temp;
+for(int i=0; i<arr.length; i++)
+{
+	temp=arr[i];
+char c=temp.charAt(0);
+if((c=='a')|| (c=='e')|| (c=='i')|| (c=='o')|| (c=='u'))
+{
+	System.out.println(temp);
+}
+
+}
+}
+
+}
+
+
+
+Result:
+is
+attend
+on
+interview
